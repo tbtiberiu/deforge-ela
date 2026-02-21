@@ -1,16 +1,16 @@
 [project]
-name = "ela"
+name = "140-ela"
 version = "0.1.0"
-description = "Add your description here"
+description = "Python project for AI generated image detection using Error Level Analysis (ELA)."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "ipykernel>=7.1.0",
-    "kagglehub>=0.3.13",
-    "keras>=3.12.0",
-    "matplotlib>=3.10.7",
-    "opencv-python>=4.12.0.88",
+    "ipykernel>=7.2.0",
+    "kagglehub>=1.0.0",
+    "keras>=3.13.2",
+    "matplotlib>=3.10.8",
+    "opencv-python>=4.13.0.92",
     "pydot>=4.0.1",
-    "scikit-learn>=1.7.2",
+    "scikit-learn>=1.8.0",
     "tensorflow[and-cuda]>=2.20.0",
 ]
