@@ -10,6 +10,7 @@ dependencies = [
     "keras>=3.13.2",
     "matplotlib>=3.10.8",
     "opencv-python>=4.13.0.92",
+    "pydot>=4.0.1",
     "python-dotenv>=1.2.2",
     "scikit-learn>=1.8.0",
     "tensorflow[and-cuda]>=2.21.0",
