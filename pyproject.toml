@@ -1,14 +1,16 @@
 [project]
-name = "140-ela"
+name = "deforge-ela"
 version = "0.1.0"
 description = "Python project for AI generated image detection using Error Level Analysis (ELA)."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=4.8.4",
     "ipykernel>=7.2.0",
     "keras>=3.13.2",
     "matplotlib>=3.10.8",
     "opencv-python>=4.13.0.92",
+    "python-dotenv>=1.2.2",
     "scikit-learn>=1.8.0",
     "tensorflow[and-cuda]>=2.21.0",
 ]
