@@ -9,8 +9,11 @@ wheels/
 # Idea project files
 .idea/
 
+.env
+
 # Virtual environments
 .venv
 
 # Models
+checkpoints/
 models/
